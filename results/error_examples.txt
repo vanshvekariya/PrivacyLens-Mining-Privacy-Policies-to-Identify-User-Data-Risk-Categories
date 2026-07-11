@@ -1,0 +1,50 @@
+Best model: Linear SVM. 1606/3053 segments with imperfect label sets in out-of-fold CV predictions.
+
+GOLD: ['Other/Unclear']
+PRED: ['Other/Unclear', 'User Control & Deletion']
+TEXT: Your California Privacy Rights. (a) California residents are entitled once a year, free of charge, to request and obtain certain information regarding our disclosure, if any, of certain categories of personal information to third parties for their direct marketing purposes in the preceding calendar year. We do not share personal information with third parties for their own direct marketing purpose
+--------------------------------------------------------------------------------
+GOLD: ['Third-Party Sharing']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Sharing Information with Third Parties for Advertising and Other Promotional Purposes. We may use third-party service providers to target and serve some of the advertisements you see on the Site. We may share technical or aggregate information, such as type of pages viewed and categories of interest, from our Site with these service providers and advertisers for their use in displaying ads on our 
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection', 'Data Security', 'Other/Unclear', 'Third-Party Sharing']
+PRED: ['Data Collection', 'Other/Unclear', 'Third-Party Sharing', 'User Control & Deletion']
+TEXT: Targeted Advertising We may allow third parties to use cookies, web beacons and similar technologies to better understand your behavior and browsing activities, so that we can serve you targeted advertising while you are on our Sites and display our ads to you when you visit other third party sites. For example, we work with third party network advertisers who may set these technologies to better 
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection', 'Third-Party Sharing']
+PRED: ['Other/Unclear']
+TEXT: how reddit uses and discloses app information reddit only uses and discloses your information for the same limited set of purposes and circumstances that we describe in the How We Use or Disclose Collected Information section of this privacy policy.
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection', 'Third-Party Sharing', 'User Control & Deletion']
+PRED: ['Data Collection', 'Other/Unclear']
+TEXT: Some of our websites (such as Founder's Online) use a feature called "Web Storage" (which includes HTML5 "local storage") so users can retrieve searches or user-defined preferences, or data marked as a favorite. This feature creates a storage file on the user's local hard drive that holds links to the resources from the website that the individual user previously searched or identified as a prefer
+--------------------------------------------------------------------------------
+GOLD: ['Third-Party Sharing']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Non-Personally Identifiable Information: We may share non-personally identifiable information (such as anonymous usage data, referring/exit pages and URLs, platform types, number of clicks, etc.) with interested third parties to help them understand the usage patterns for certain Company services.
+--------------------------------------------------------------------------------
+GOLD: ['Data Security', 'Other/Unclear']
+PRED: ['Other/Unclear']
+TEXT: TEN: The Enthusiast Network Privacy Policy TEN: The Enthusiast Network (TEN or We or we) is strongly committed to protecting your privacy and providing a safe online experience for all of our users and subscribers while offering the highest quality publications and services to them. This Privacy Policy discloses what information we gather, how we use it, to whom we disclose personal information an
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: To Protect the Rights of the Services and others. We may use your personal information as we believe is necessary or appropriate to protect, enforce, or defend the legal rights, privacy, safety, or property of the Services, its employees or agents, or other users and to comply with applicable law.
+--------------------------------------------------------------------------------
+GOLD: ['Third-Party Sharing']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Additionally, we use third-party companies to collect non-personally identifiable information (e.g., the pages you visit, and which links you click, which ads you see and click on, and the categories of search terms you enter) when you visit one of our websites. Some of these third-party companies collect information when serving ads on our sites, while others collect information without showing a
+--------------------------------------------------------------------------------
+GOLD: ['Other/Unclear']
+PRED: ['Other/Unclear', 'Third-Party Sharing']
+TEXT: c. We may offer our Magazines through certain third party websites via a subscription page on such third party websites that is linked to this policy. For the avoidance of doubt, such subscription page is a "Covered Site" and this policy applies to information collected through the subscription page, but does not apply to information collected through the third party website.
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection', 'Third-Party Sharing', 'User Control & Deletion']
+PRED: ['Data Collection', 'Other/Unclear', 'Third-Party Sharing', 'User Control & Deletion']
+TEXT: If you indicated upon registration that you are interested in receiving offers or information from us and our partners, we may occasionally send you direct mail about products and services that we feel may be of interest to you. Only lynda.com (or agents working on behalf of us and under confidentiality agreements) will send you these direct mailings, and only if you did not later opt-out of such 
+--------------------------------------------------------------------------------
+GOLD: ['Data Security', 'Other/Unclear']
+PRED: ['Data Security']
+TEXT: We use commercially reasonable safeguards to help keep the information collected through the Service secure and take reasonable steps (such as requesting a unique password) to verify your identity before granting you access to your account. However, Instagram cannot ensure the security of any information you transmit to Instagram or guarantee that information on the Service may not be accessed, di
+--------------------------------------------------------------------------------

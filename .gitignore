@@ -1,0 +1,32 @@
+# ---- Dataset (large, redistributable, fully rebuildable) ----
+# OPP-115 is ~100 MB extracted and the zip is close to GitHub's file size
+# limit. src/README.md documents how to download and rebuild everything
+# (including data/segments.csv) with src/build_dataset.py.
+data/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- MS Office temp/lock files (created while a doc is open in Word) ----
+~$*
+*.tmp
+.~lock.*#
+
+# ---- OS junk ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Claude Code local settings (machine-specific permissions) ----
+.claude/settings.local.json

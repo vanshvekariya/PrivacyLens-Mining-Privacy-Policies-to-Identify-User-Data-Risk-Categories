@@ -1,0 +1,27 @@
+policies: 115
+annotated segments: 3791 (skipped 0 with no matching text)
+segments per policy: mean 33.0
+multi-label segments (mapped): 1863 (49.1%); mean labels/segment 1.64
+segment length: mean 70 words, median 59, p95 163
+split: 3053 train segments / 738 test segments (92/23 policies), policy-disjoint, seed 42
+
+mapped label counts (all segments):
+  Other/Unclear: 1985
+  Data Collection: 1521
+  Third-Party Sharing: 1186
+  User Control & Deletion: 793
+  Data Security: 375
+  Policy Change: 192
+  Data Retention: 156
+
+original label counts (all segments):
+  Other: 1762
+  First Party Collection/Use: 1521
+  Third Party Sharing/Collection: 1186
+  User Choice/Control: 632
+  Data Security: 375
+  International and Specific Audiences: 353
+  User Access, Edit and Deletion: 231
+  Policy Change: 192
+  Data Retention: 156
+  Do Not Track: 32
