@@ -1,0 +1,8 @@
+category,template
+Data Collection,"This passage appears to describe information the service collects about you. The scope matters: which data, and whether it is provided by you or gathered automatically. Check what categories of data are listed."
+Data Retention,This passage appears to relate to how long your data is kept. Check whether a specific retention period is given or whether data may be kept indefinitely.
+Data Security,"This passage appears to discuss how your data is protected. Note whether it describes concrete measures (for example, encryption) or is mainly a disclaimer that no system is fully secure."
+Other/Unclear,"The system could not confidently place this passage in a specific privacy practice. It may be boilerplate, jurisdiction-specific text, or wording the model does not handle well. Read it yourself if the surrounding context seems important."
+Policy Change,This passage appears to describe how and when the policy itself can change. Check whether you would be notified of material changes and how.
+Third-Party Sharing,"This passage appears to describe information being shared with, or collected by, other organizations. Because sharing can send data beyond the first party, it is worth reading carefully. Check who the recipients are and for what purpose."
+User Control & Deletion,"This passage appears to concern your controls over your data, such as access, correction, opt-out, or deletion. Check whether the control is clearly granted, limited, or hard to exercise."

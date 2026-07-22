@@ -1,0 +1,10 @@
+stars,priority_band,priority_subtype,count,rate
+3,Review,identified_medium,240,0.0786
+3,Review,unknown_abstention,27,0.0088
+3,Review,unknown_identified,237,0.0776
+4,Important,identified_high,264,0.0865
+4,Important,identified_medium,872,0.2856
+4,Important,unknown_identified,540,0.1769
+5,Very important,identified_high,725,0.2375
+5,Very important,identified_medium,143,0.0468
+5,Very important,unknown_identified,5,0.0016

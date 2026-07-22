@@ -1,0 +1,14 @@
+scope,key,n,abstained,abstention_rate
+overall,all,3053,27,0.0088
+by_gold_category,Data Collection,1244,17,0.0137
+by_gold_category,Data Retention,128,0,0.0
+by_gold_category,Data Security,293,5,0.0171
+by_gold_category,Other/Unclear,1619,8,0.0049
+by_gold_category,Policy Change,153,0,0.0
+by_gold_category,Third-Party Sharing,959,12,0.0125
+by_gold_category,User Control & Deletion,637,3,0.0047
+by_fold,fold_0,612,9,0.0147
+by_fold,fold_1,610,6,0.0098
+by_fold,fold_2,611,5,0.0082
+by_fold,fold_3,610,1,0.0016
+by_fold,fold_4,610,6,0.0098

@@ -1,0 +1,15 @@
+{
+  "framework_version": "1.0",
+  "model_name": "logistic_regression_ovr",
+  "model_version": "logistic_regression_ovr|tfidf12_mindf2|C1.0_seed42|sklearn1.7.2",
+  "split_id": "policy_split_seed_42",
+  "prediction_source": "train_oof",
+  "threshold_source": "train_oof_f1",
+  "threshold_note": "development-set thresholds; not an unbiased estimate of deployed performance",
+  "cv_protocol": "5-fold policy-grouped",
+  "seed": 42,
+  "confidence_bands": {
+    "low": 0.4,
+    "high": 0.7
+  }
+}

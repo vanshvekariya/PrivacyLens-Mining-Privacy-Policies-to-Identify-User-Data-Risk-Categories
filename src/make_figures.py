@@ -107,11 +107,14 @@ def fig_per_category_f1():
     fig.savefig(FIGS / "fig_per_category_f1.png", dpi=200)
 
 
-def fig_confusion():
-    """Row-normalized 'confusion' on single-gold-label segments: for segments
-    whose gold set is exactly one category, the share of out-of-fold
-    predictions that include each category (rows can exceed 1 in principle;
-    each cell is P(category predicted | gold))."""
+def fig_label_coprediction():
+    """Gold-label-conditioned prediction matrix (NOT a conventional confusion
+    matrix). Because the task is multi-label, a segment can carry several gold
+    and several predicted labels, so this is not mutually exclusive: for
+    segments whose gold set is exactly one category, each cell is the share of
+    out-of-fold predictions that include each predicted category, i.e.
+    P(category predicted | single gold category). Per-category 2x2 matrices are
+    written separately by per_category_confusion()."""
     pred = pd.read_csv(RESULTS / "cv_predictions.csv")
     single = pred[~pred.labels.str.contains(r"\|")]
     cats = (pd.read_csv(RESULTS / "label_distribution.csv")
@@ -128,28 +131,50 @@ def fig_confusion():
     M = M / np.maximum(counts[:, None], 1)
 
     cmap = LinearSegmentedColormap.from_list("seq_blue", SEQ_RAMP)
-    fig, ax = plt.subplots(figsize=(5.6, 4.6))
+    fig, ax = plt.subplots(figsize=(4.4, 3.5))
     ax.imshow(M, cmap=cmap, vmin=0, vmax=1, aspect="auto")
     short = [c.replace(" & ", " &\n") for c in cats]
-    ax.set_xticks(range(len(cats)), short, rotation=45, ha="right", fontsize=8)
+    ax.set_xticks(range(len(cats)), short, rotation=45, ha="right",
+                  fontsize=8.5)
     ax.set_yticks(range(len(cats)),
                   [f"{c}  (n={int(n):,})" for c, n in zip(cats, counts)],
-                  fontsize=8)
+                  fontsize=8.5)
     for i in range(len(cats)):
         for j in range(len(cats)):
             if M[i, j] >= 0.05:
                 ax.text(j, i, f"{M[i, j]:.2f}", ha="center", va="center",
-                        fontsize=7.5,
+                        fontsize=8,
                         color="#ffffff" if M[i, j] > 0.55 else INK)
-    ax.set_title("Linear SVM — prediction rate by gold category\n"
-                 "(segments with exactly one gold label)", loc="left", pad=10)
+    # no in-image title: the report's Figure 1 caption carries it
     ax.set_xlabel("Predicted category")
-    ax.set_ylabel("Gold category")
+    ax.set_ylabel("Gold category (single-label segments)")
     ax.tick_params(length=0)
     for side in ax.spines.values():
         side.set_visible(False)
     fig.tight_layout()
-    fig.savefig(FIGS / "fig_confusion.png", dpi=200)
+    fig.savefig(FIGS / "fig_label_coprediction.png", dpi=200)
+
+
+def per_category_confusion():
+    """Write proper per-category 2x2 (TN/FP/FN/TP) matrices for the selected
+    model. Unlike the 7x7 co-prediction figure, each category is a real binary
+    confusion matrix over ALL training segments (multi-label safe)."""
+    pred = pd.read_csv(RESULTS / "cv_predictions.csv")
+    cats = (pd.read_csv(RESULTS / "label_distribution.csv")
+            .query("level == 'mapped'").category.tolist())
+    gold_sets = [set(str(s).split("|")) for s in pred.labels.fillna("")]
+    pred_sets = [set(str(s).split("|")) for s in pred.predicted.fillna("")]
+    rows = []
+    for c in cats:
+        tp = fp = fn = tn = 0
+        for g, p in zip(gold_sets, pred_sets):
+            g_has, p_has = c in g, c in p
+            tp += g_has and p_has
+            fp += (not g_has) and p_has
+            fn += g_has and (not p_has)
+            tn += (not g_has) and (not p_has)
+        rows.append({"category": c, "TP": tp, "FP": fp, "FN": fn, "TN": tn})
+    pd.DataFrame(rows).to_csv(RESULTS / "per_category_confusion.csv", index=False)
 
 
 if __name__ == "__main__":
@@ -157,5 +182,6 @@ if __name__ == "__main__":
     fig_label_distribution()
     fig_model_comparison()
     fig_per_category_f1()
-    fig_confusion()
-    print("wrote 4 figures to", FIGS)
+    fig_label_coprediction()
+    per_category_confusion()
+    print("wrote 4 figures to", FIGS, "and per_category_confusion.csv")

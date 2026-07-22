@@ -1,0 +1,8 @@
+category,support,threshold,rule,f1
+Data Collection,1244,0.5,maximize_f1,0.8051220488195278
+Data Retention,128,0.45,maximize_f1,0.544
+Data Security,293,0.5,maximize_f1,0.6910420475319927
+Other/Unclear,1619,0.45,maximize_f1,0.7870652837095791
+Policy Change,153,0.6,maximize_f1,0.7609427609427609
+Third-Party Sharing,959,0.5,maximize_f1,0.7700205338809035
+User Control & Deletion,637,0.5,maximize_f1,0.7106446776611695

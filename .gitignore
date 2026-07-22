@@ -12,6 +12,7 @@ __pycache__/
 venv/
 env/
 .ipynb_checkpoints/
+.pytest_cache/
 
 # ---- MS Office temp/lock files (created while a doc is open in Word) ----
 ~$*
@@ -30,4 +31,3 @@ Desktop.ini
 
 # ---- Claude Code local settings (machine-specific permissions) ----
 .claude/settings.local.json
-

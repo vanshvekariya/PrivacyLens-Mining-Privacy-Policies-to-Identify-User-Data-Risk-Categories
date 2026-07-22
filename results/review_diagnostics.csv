@@ -1,0 +1,5 @@
+flag,n_flagged,n_not_flagged,flagged_error_rate,not_flagged_error_rate,error_recall,flag_precision,high_conf_errors_unflagged
+review_required,1430,1623,0.6084,0.5132,0.5109,0.6084,531.0
+model_uncertainty,791,2262,0.7927,0.4757,0.3682,0.7927,686.0
+content_unclear,782,2271,0.4514,0.5945,0.2073,0.4514,753.0
+(corpus),1703,1350,0.5578,,,,

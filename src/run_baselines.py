@@ -22,17 +22,17 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import f1_score, precision_recall_fscore_support
-from sklearn.model_selection import GroupKFold
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 
+from privacylens.config import LR_PARAMS, N_FOLDS, SEED, TFIDF_PARAMS
+from privacylens.prediction import folds_to_indices, load_or_build_folds
+
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "results"
-SEED = 42
-N_FOLDS = 5
 
 KEYWORDS = {
     "Data Collection": [
@@ -76,15 +76,14 @@ def keyword_predict(texts, classes):
 
 
 def make_models():
-    tfidf = lambda: TfidfVectorizer(ngram_range=(1, 2), min_df=2,
-                                    sublinear_tf=True, strip_accents="unicode")
+    # TF-IDF and Logistic Regression configs come from privacylens.config so
+    # the interpretation-layer LR is provably the same model reported here.
+    tfidf = lambda: TfidfVectorizer(**TFIDF_PARAMS)
     return {
         "Naive Bayes": make_pipeline(
             tfidf(), OneVsRestClassifier(MultinomialNB())),
         "Logistic Regression": make_pipeline(
-            tfidf(), OneVsRestClassifier(
-                LogisticRegression(max_iter=2000, class_weight="balanced",
-                                   C=1.0, random_state=SEED))),
+            tfidf(), OneVsRestClassifier(LogisticRegression(**LR_PARAMS))),
         "Linear SVM": make_pipeline(
             tfidf(), OneVsRestClassifier(
                 LinearSVC(class_weight="balanced", C=0.5, random_state=SEED))),
@@ -106,9 +105,11 @@ def main():
     oof = {name: np.zeros_like(Y) for name in
            ["Majority", "Keyword", *make_models()]}
 
-    gkf = GroupKFold(n_splits=N_FOLDS)
+    # Shared, persisted policy-grouped folds (single source for every model,
+    # figure, and threshold artifact).
+    fold_of_policy = load_or_build_folds(groups)
     fold_scores = {name: [] for name in oof}
-    for tr_idx, va_idx in gkf.split(texts, Y, groups):
+    for tr_idx, va_idx in folds_to_indices(groups, fold_of_policy):
         X_tr = [texts[i] for i in tr_idx]
         X_va = [texts[i] for i in va_idx]
 

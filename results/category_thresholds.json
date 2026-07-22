@@ -1,0 +1,17 @@
+{
+  "framework_version": "1.0",
+  "model_name": "logistic_regression_ovr",
+  "model_version": "logistic_regression_ovr|tfidf12_mindf2|C1.0_seed42|sklearn1.7.2",
+  "split_id": "policy_split_seed_42",
+  "prediction_source": "train_oof",
+  "threshold_method": "maximize_f1",
+  "thresholds": {
+    "Data Collection": 0.5,
+    "Data Retention": 0.45,
+    "Data Security": 0.5,
+    "Other/Unclear": 0.45,
+    "Policy Change": 0.6,
+    "Third-Party Sharing": 0.5,
+    "User Control & Deletion": 0.5
+  }
+}
