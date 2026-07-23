@@ -26,6 +26,9 @@ SEGMENTS_CSV = DATA / "segments.csv"
 FOLDS_CSV = RESULTS / "cv_fold_assignments.csv"
 THRESHOLDS_JSON = RESULTS / "category_thresholds.json"
 INTERP_METADATA_JSON = RESULTS / "interpretation_metadata.json"
+# Persisted prototype model (full fitted pipeline) + its provenance metadata.
+PROTOTYPE_MODEL_JOBLIB = RESULTS / "prototype_model.joblib"
+PROTOTYPE_METADATA_JSON = RESULTS / "prototype_model_metadata.json"
 
 # ---------------------------------------------------------------------------
 # Framework identity / provenance

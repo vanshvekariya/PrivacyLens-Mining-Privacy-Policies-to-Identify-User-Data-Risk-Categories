@@ -1,0 +1,35 @@
+{
+  "model_name": "logistic_regression_ovr",
+  "model_version": "logistic_regression_ovr|tfidf12_mindf2|C1.0_seed42|sklearn1.7.2",
+  "category_order": [
+    "Data Collection",
+    "Data Retention",
+    "Data Security",
+    "Other/Unclear",
+    "Policy Change",
+    "Third-Party Sharing",
+    "User Control & Deletion"
+  ],
+  "tfidf_params": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "strip_accents": "unicode"
+  },
+  "lr_params": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "solver": "lbfgs",
+    "random_state": 42
+  },
+  "training_split": "policy_split_seed_42",
+  "n_train_segments": 3053,
+  "threshold_file": "category_thresholds.json",
+  "framework_version": "1.0",
+  "sklearn_version": "1.7.2",
+  "model_created_at": "2026-07-23T03:54:43.105036+00:00"
+}

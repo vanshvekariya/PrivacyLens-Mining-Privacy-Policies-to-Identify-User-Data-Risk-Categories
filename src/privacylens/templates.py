@@ -6,7 +6,7 @@ cite. Two safeguards baked in:
   - Cautious phrasing ("This passage appears to describe...") because the
     classifier can be wrong and detects topic, not favourability.
   - Evidence is only trimmed / deduped / length-capped here. HTML ESCAPING IS
-    NOT DONE IN THIS MODULE - it belongs in the Jinja/UI layer, so CSV and
+    NOT DONE IN THIS MODULE - it belongs in the presentation/UI layer, so CSV and
     report exports stay readable and nothing is double-escaped.
 
 The negation/uncertainty DISCLAIMER is exported for the UI to show alongside

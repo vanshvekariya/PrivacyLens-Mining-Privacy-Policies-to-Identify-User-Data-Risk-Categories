@@ -217,7 +217,7 @@ Explanations are static, auditable, and cautious ("This passage appears to
 describe..."). `explain_all` returns an explanation for every predicted label
 (dominant first), never suppressing the others. Evidence phrases are trimmed,
 deduped, and length-capped in `templates.py`; HTML escaping is intentionally
-left to the presentation (Jinja/UI) layer so CSV and report exports stay
+left to the presentation/UI layer so CSV and report exports stay
 readable and nothing is double-escaped. A standing disclaimer accompanies
 highlighted evidence, noting that a highlighted phrase such as "share personal
 information" can appear inside a negation like "we do not share personal
