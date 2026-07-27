@@ -18,6 +18,18 @@ from pathlib import Path
 
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .stAppDeployButton {
+        visibility: hidden;
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 if str(SRC) not in sys.path:
