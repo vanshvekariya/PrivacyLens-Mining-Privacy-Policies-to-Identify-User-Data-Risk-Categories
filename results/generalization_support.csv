@@ -1,8 +1,8 @@
 category,positive_support,negative_support
-Data Collection,1,4
-Data Retention,1,4
-Data Security,0,5
-Other/Unclear,0,5
-Policy Change,1,4
-Third-Party Sharing,1,4
-User Control & Deletion,1,4
+Data Collection,48,91
+Data Retention,7,132
+Data Security,10,129
+Other/Unclear,26,113
+Policy Change,4,135
+Third-Party Sharing,34,105
+User Control & Deletion,31,108
