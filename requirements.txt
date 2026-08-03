@@ -8,5 +8,13 @@ joblib>=1.3
 # Prototype web UI
 streamlit>=1.30
 
+# Transformer fine-tuning (DistilBERT / RoBERTa). torch is picked up from the
+# HuggingFace stack; on Apple Silicon this transparently uses the MPS backend
+# (see src/train_transformer.py for the MPS fallback env var).
+transformers>=4.44
+torch>=2.3
+accelerate>=0.33
+tqdm>=4.66
+
 # Tests
 pytest>=7.0

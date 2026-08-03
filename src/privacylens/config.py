@@ -30,6 +30,10 @@ INTERP_METADATA_JSON = RESULTS / "interpretation_metadata.json"
 PROTOTYPE_MODEL_JOBLIB = RESULTS / "prototype_model.joblib"
 PROTOTYPE_METADATA_JSON = RESULTS / "prototype_model_metadata.json"
 
+# Transformer artifacts
+TRANSFORMER_OOF_CSV = RESULTS / "transformer_oof_predictions.csv"
+TRANSFORMER_METADATA_JSON = RESULTS / "transformer_model_metadata.json"
+
 # ---------------------------------------------------------------------------
 # Framework identity / provenance
 # ---------------------------------------------------------------------------
@@ -57,6 +61,23 @@ LR_PARAMS = dict(
     solver="lbfgs",
     random_state=SEED,
 )
+
+# Transformer hyperparameters
+TRANSFORMER_MODEL_NAME = "distilbert_base_uncased_ovr"
+TRANSFORMER_CHECKPOINT = "distilbert-base-uncased"
+MAX_SEQ_LEN = 256
+POS_WEIGHT_CAP = 20.0
+TRANSFORMER_PARAMS = dict(
+    learning_rate=2e-5,
+    num_train_epochs=3,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=32,
+    gradient_accumulation_steps=4,
+    warmup_ratio=0.1,
+    weight_decay=0.01,
+    seed=SEED,
+)
+TRANSFORMER_FOLDS_TO_RUN = None
 
 
 def model_version() -> str:

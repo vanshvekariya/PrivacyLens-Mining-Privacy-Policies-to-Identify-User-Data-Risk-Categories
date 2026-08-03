@@ -3,6 +3,7 @@
 # limit. src/README.md documents how to download and rebuild everything
 # (including data/segments.csv) with src/build_dataset.py.
 data/
+data.zip
 
 # ---- Python ----
 __pycache__/
@@ -13,6 +14,12 @@ venv/
 env/
 .ipynb_checkpoints/
 .pytest_cache/
+
+# ---- HuggingFace model cache (redownloadable) ----
+.hf_cache/
+
+# ---- Transformer per-fold Trainer scratch dir ----
+results/transformer_runs/
 
 # ---- MS Office temp/lock files (created while a doc is open in Word) ----
 ~$*
