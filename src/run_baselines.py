@@ -28,11 +28,58 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 
-from privacylens.config import LR_PARAMS, N_FOLDS, SEED, TFIDF_PARAMS
+from privacylens.config import CATEGORIES, LR_PARAMS, N_FOLDS, SEED, TFIDF_PARAMS
 from privacylens.prediction import folds_to_indices, load_or_build_folds
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "results"
+
+# Models whose out-of-fold predictions are persisted for downstream error
+# analysis, and their file-name slugs
+SHARED_OOF_MODELS = {
+    "Naive Bayes": "naive_bayes",
+    "Logistic Regression": "logistic_regression",
+    "Linear SVM": "linear_svm",
+}
+
+
+def sanitize_col(category):
+    # Convert a category name into a csv-safe probability column
+    return "prob_" + (category.replace("&", "and").replace("/", "_")
+                              .replace("-", "_").replace(" ", "_"))
+
+
+PROB_COLS = [sanitize_col(c) for c in CATEGORIES]
+
+
+def get_proba(model, X):
+    # Return per-category probabilities, using sigmoid(decision_function) as
+    # a fallback for models like LinearSVC that lack predict_proba
+    if hasattr(model, "predict_proba"):
+        return model.predict_proba(X)
+    if hasattr(model, "decision_function"):
+        scores = model.decision_function(X)
+        return 1.0 / (1.0 + np.exp(-scores))
+    raise ValueError(f"model {type(model).__name__} has no predict_proba or decision_function")
+
+
+def write_oof_predictions_csv(model_slug, oof_probs, fold_of_row, train_df, classes):
+    # Write out-of-fold predictions in the shared schema (matches train_transformer.py)
+    kept = fold_of_row >= 0
+    out = train_df.loc[kept, ["policy_stem", "segment_id", "labels"]].copy()
+    out.rename(columns={"labels": "gold_labels"}, inplace=True)
+    out["fold_id"] = fold_of_row[kept]
+    kept_probs = oof_probs[kept]
+    for j, col in enumerate(PROB_COLS):
+        out[col] = kept_probs[:, j]
+    preds = (kept_probs >= 0.5).astype(int)
+    out["predicted_labels_at_0_5"] = [
+        "|".join(c for j, c in enumerate(classes) if preds[i, j])
+        for i in range(len(preds))
+    ]
+    path = RESULTS / f"oof_predictions_{model_slug}.csv"
+    out.to_csv(path, index=False)
+    return path
 
 KEYWORDS = {
     "Data Collection": [
@@ -105,13 +152,19 @@ def main():
     oof = {name: np.zeros_like(Y) for name in
            ["Majority", "Keyword", *make_models()]}
 
+    # Per-model out-of-fold probabilities for shared-schema CSV export
+    oof_probs = {name: np.zeros((len(texts), len(classes)), dtype=np.float32)
+                 for name in SHARED_OOF_MODELS}
+    fold_of_row = np.full(len(texts), -1, dtype=np.int64)
+
     # Shared, persisted policy-grouped folds (single source for every model,
     # figure, and threshold artifact).
     fold_of_policy = load_or_build_folds(groups)
     fold_scores = {name: [] for name in oof}
-    for tr_idx, va_idx in folds_to_indices(groups, fold_of_policy):
+    for fold_id, (tr_idx, va_idx) in enumerate(folds_to_indices(groups, fold_of_policy)):
         X_tr = [texts[i] for i in tr_idx]
         X_va = [texts[i] for i in va_idx]
+        fold_of_row[va_idx] = fold_id
 
         preds = {"Majority": np.zeros((len(va_idx), len(classes)), dtype=int),
                  "Keyword": keyword_predict(X_va, classes)}
@@ -119,6 +172,8 @@ def main():
         for name, model in make_models().items():
             model.fit(X_tr, Y[tr_idx])
             preds[name] = model.predict(X_va)
+            if name in SHARED_OOF_MODELS:
+                oof_probs[name][va_idx] = get_proba(model, X_va)
 
         for name, P in preds.items():
             oof[name][va_idx] = P
@@ -170,6 +225,12 @@ def main():
                   f"TEXT: {snippet}", "-" * 80]
     (RESULTS / "error_examples.txt").write_text("\n".join(lines),
                                                 encoding="utf-8")
+
+    # Per-model OOF predictions in the shared schema for downstream analysis
+    for name, slug in SHARED_OOF_MODELS.items():
+        path = write_oof_predictions_csv(slug, oof_probs[name], fold_of_row,
+                                          train, classes)
+        print(f"Wrote {path.name}")
 
     print(comparison.to_string(index=False))
     print()
