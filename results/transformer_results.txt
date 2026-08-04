@@ -1,0 +1,62 @@
+### DISTILBERT FINE-TUNING ###
+
+checkpoint: distilbert-base-uncased
+max seq len: 256
+device: cpu
+seed: 42
+folds run: [0, 1, 2, 3, 4]
+
+### TOKEN LENGTH AUDIT ###
+
+sample_n: 500
+p50: 71.0
+p95: 192.19999999999982
+p99: 268.03
+max: 390
+truncated_frac: 0.016
+
+### FOLD 0 ###
+
+train segments: 2441
+val segments: 612
+training time: 614.8 seconds
+  epoch 1.0: macro_f1=0.5728 micro_f1=0.6403
+  epoch 2.0: macro_f1=0.5869 micro_f1=0.6420
+  epoch 3.0: macro_f1=0.6189 micro_f1=0.6583
+
+### FOLD 1 ###
+
+train segments: 2443
+val segments: 610
+training time: 642.9 seconds
+  epoch 1.0: macro_f1=0.4765 micro_f1=0.5681
+  epoch 2.0: macro_f1=0.5556 micro_f1=0.6222
+  epoch 3.0: macro_f1=0.5818 micro_f1=0.6454
+
+### FOLD 2 ###
+
+train segments: 2442
+val segments: 611
+training time: 649.3 seconds
+  epoch 1.0: macro_f1=0.4889 micro_f1=0.5640
+  epoch 2.0: macro_f1=0.5318 micro_f1=0.6145
+  epoch 3.0: macro_f1=0.5670 micro_f1=0.6396
+
+### FOLD 3 ###
+
+train segments: 2443
+val segments: 610
+training time: 641.5 seconds
+  epoch 1.0: macro_f1=0.5644 micro_f1=0.6179
+  epoch 2.0: macro_f1=0.6187 micro_f1=0.6608
+  epoch 3.0: macro_f1=0.6330 micro_f1=0.6692
+
+### FOLD 4 ###
+
+train segments: 2443
+val segments: 610
+training time: 637.6 seconds
+  epoch 1.0: macro_f1=0.5485 micro_f1=0.6187
+  epoch 2.0: macro_f1=0.5598 micro_f1=0.6371
+  epoch 3.0: macro_f1=0.6134 micro_f1=0.6693
+

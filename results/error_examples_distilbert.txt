@@ -1,0 +1,50 @@
+Model: DistilBERT. 2465/3053 segments with imperfect label sets in out-of-fold predictions.
+
+GOLD: ['Other/Unclear']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Information You Provide to Us.
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: We may use cookies, web beacons and similar technologies, and/or a third-party ad serving software, to automatically collect information about site users and site activity, and we may use this information to, among other things, serve targeted advertisements on this site. The information collected allows us to analyze how users use the site and to track user interests, trends and patterns, thus al
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection']
+PRED: ['Data Collection', 'User Control & Deletion']
+TEXT: Cookies, Flash Cookies and Web Beacons Like many websites, we use cookies, flash cookies, web beacons or similar technologies. "Cookies" are small text files that are stored on your computer or other device when you visit certain online pages that record your preferences and actions. We use cookies for a variety of purposes, including remembering you and your preferences, tracking your use of our 
+--------------------------------------------------------------------------------
+GOLD: ['Data Retention', 'Other/Unclear', 'Third-Party Sharing', 'User Control & Deletion']
+PRED: ['Data Retention', 'Other/Unclear', 'User Control & Deletion']
+TEXT: account deletion You may choose to delete your reddit account at any time. The usernames associated with deleted accounts remain unavailable for others to use, and your public profile is no longer visible to reddit users. However, the posts and content you made during your tenure as a reddit user will not be automatically deleted as part of the account removal process, though your username will be
+--------------------------------------------------------------------------------
+GOLD: ['Other/Unclear', 'Third-Party Sharing']
+PRED: ['Other/Unclear', 'User Control & Deletion']
+TEXT: External Links USA.gov links to many websites created and maintained by other public and/or private organizations as outlined in our Linking Policy. If you click a link to an outside website, such as Facebook or YouTube, you will leave the USA.gov site and are subject to the privacy and security policies of the owners/sponsors of the outside website.
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection']
+PRED: ['User Control & Deletion']
+TEXT: By providing Company your email address, you consent to our using the email address to send you Service-related notices, including any notices required by law, in lieu of communication by postal mail. We may also use your email address to send you other messages, such as newsletters, changes to features of the Service or special offers. If you do not want to receive such email messages, you may op
+--------------------------------------------------------------------------------
+GOLD: ['Data Collection']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Some of our sites may collect credit card and related financial information if you wish to purchase a product or subscribe to any publication or service offered via these sites. If you wish to subscribe to one of our publications or place an order for products or services online, you must generally establish a credit card account with us or our vendors. Some of our sites also may collect social se
+--------------------------------------------------------------------------------
+GOLD: ['Other/Unclear']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Data Processor. A data processor is a person or entity that processes personal information on behalf of a data controller (or data controllers) and is permitted to perform data processing only as directed by the data controller(s).
+--------------------------------------------------------------------------------
+GOLD: ['Third-Party Sharing']
+PRED: ['Data Collection', 'Third-Party Sharing']
+TEXT: Changes in Corporate Structure. In developing our business, we might sell certain assets, or the company, or parts of it, may be sold, merged or otherwise transferred. In such transactions, user information, whether personally identifiable or otherwise, may be one of the transferred assets.
+--------------------------------------------------------------------------------
+GOLD: ['Other/Unclear']
+PRED: ['Other/Unclear', 'Third-Party Sharing']
+TEXT: c. We may offer our Magazines through certain third party websites via a subscription page on such third party websites that is linked to this policy. For the avoidance of doubt, such subscription page is a "Covered Site" and this policy applies to information collected through the subscription page, but does not apply to information collected through the third party website.
+--------------------------------------------------------------------------------
+GOLD: ['Third-Party Sharing']
+PRED: ['Other/Unclear', 'Third-Party Sharing']
+TEXT: (c) In the event that lynda.com decides to sell all or part of its stock or assets or enter into a merger, we reserve the right to include Personally Identifiable Information and Non-Personally Identifiable Information among the assets transferred to the acquiring or surviving company.
+--------------------------------------------------------------------------------
+GOLD: ['User Control & Deletion']
+PRED: ['Data Collection', 'User Control & Deletion']
+TEXT: Correcting Information You are responsible for providing accurate information when making purchases, registering with any portions of the Site that require registration, or performing other functions that might require you to submit personally identifiable information to the Site. If you wish to correct any personally identifiable information you have provided to us in this manner, you may do so b
+--------------------------------------------------------------------------------

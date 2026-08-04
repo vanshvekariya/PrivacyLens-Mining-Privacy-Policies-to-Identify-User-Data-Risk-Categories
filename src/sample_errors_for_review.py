@@ -131,7 +131,7 @@ def write_annotation_csv(model_slug, annotation_df):
     if path.exists():
         prior = pd.read_csv(path)
         if "failure_type" in prior.columns:
-            filled = prior["failure_type"].astype(str).str.strip() != ""
+            filled = prior["failure_type"].fillna("").astype(str).str.strip() != ""
             if filled.any():
                 return None
     annotation_df.to_csv(path, index=False)
