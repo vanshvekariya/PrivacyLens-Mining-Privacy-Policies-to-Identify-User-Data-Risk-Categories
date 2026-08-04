@@ -1,0 +1,31 @@
+We’ve updated our Privacy Policy. Please take a look before the changes take effect on July 1, 2026.
+
+If you have questions about how we use personal data, just ask.
+
+Non-public content you submit includes your saved drafts of posts or comments, your non-public messages with other users (such as private messages, private chats, and modmail), and your reports and other communications with moderators and with us. Non-public content you submit may also include text, links, images, gifs, audio, videos, software, and tools.
+
+We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.
+
+Provide you with relevant advertising, including personalized advertising on and off Reddit;
+
+To comply with the law. We may share information if we believe disclosure is in accordance with, or required by, any applicable law, regulation, legal process, or governmental request, including, but not limited to, meeting national security or law enforcement requirements. To the extent the law allows it, we will attempt to provide you with prior notice before disclosing your information in response to such a request. Our Transparency Report has additional information about how we respond to government requests.
+
+Controlling Linked Services’ Access to Your Account
+
+Before we process a request from you about your personal information, we need to verify the request via your access to your Reddit account or to a verified email address associated with your Reddit account. If we deny your request, you may appeal our decision by contacting us at redditdatarequests@reddit.com.
+
+Similarly, depending on the services, we may also process the same information for different purposes. We explain below these processing purposes, the categories of data processed and the legal basis for processing this data, in more detail:
+
+Information You Provide Us Account Information Non-Public Content You Submit Actions You Take Transactional Information Other Information Information We Collect As You Use Our Services Logs Data Usage Information Location Information (IP based only) Information Collected from Other Sources Linked Services
+
+Help protect the safety of Reddit and our users, which includes blocking suspected spammers, addressing abuse, age restricting certain content and enforcing our rights, the Reddit User Agreement and our other terms and policies, as well as comply with applicable law Legitimate Interest relied on: to maintain a safe and trustworthy site for our users and to protect our services, rights and legal interests
+
+Information You Provide Us Account Information Public Content You Submit Actions You Take Other Information Information We Collect As You Use Our Services Logs Data Usage information Information collected from cookies and similar technologies Location Information (IP based only)
+
+Professional or employment-related information or demographic information, but only if you explicitly provide it to us, such as by filling out a survey.
+
+Confirmation on whether your data is being processed.
+
+If your personal information is shared with corporate affiliates or third-party service providers outside of Brazil, we will implement the necessary safeguards to uphold an adequate level of data protection for the period necessary to fulfill the purposes described in our Privacy Policy. These international transfers are carried out using one of the valid mechanisms provided for in the LGPD and in regulations issued by the Brazilian Data Protection Agency (ANPD). All recipients are subject to appropriate technical, administrative, and contractual measures to ensure the security, confidentiality, and integrity of the information, in accordance with applicable legislation.
+
+Reddit Rede de Comunidades do Brasil Ltda Rua Barão de Itapetininga, 37 Edifício Barão III – Sala 104 República 01042-916 São Paulo dpo@reddit.com

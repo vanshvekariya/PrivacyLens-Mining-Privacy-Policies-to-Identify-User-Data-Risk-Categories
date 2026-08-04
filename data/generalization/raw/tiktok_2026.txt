@@ -1,0 +1,31 @@
+This Privacy Policy applies to TikTok services (the “Services”), which include TikTok apps, websites, software, and related services, accessed via any platform or device, that link to this Privacy Policy, as well as TikTok Ad Network. The Services are operated by TikTok USDS Joint Venture LLC (“TikTok USDS Joint Venture”, “we” or “us”).
+
+User content, including comments, photographs, livestreams, audio recordings, videos, and text that you choose to create, import, upload, or publish through our apps and websites. Even if you are not a user, information about you may appear in user content created or published by users on our apps and websites. We may collect user content through pre-uploading at the time of creation, import, or upload, regardless of whether you choose to save or publish that user content, for example, to recommend audio options, provide an effect, generate captions, and provide other personalized recommendations.
+
+Your account settings and communication preferences.
+
+We automatically collect certain information from you when you use the Services, including:
+
+Metadata that is automatically uploaded in connection with your user content, messages, or AI interactions, such as how, when, where, and by whom the user content was created, or message or prompt was sent. Metadata may also include information, such as your username, that enables your user content to be traced back to your account by other users.
+
+We may obtain information about you from affiliates controlled by, or under common control with, us.
+
+To personalize and customize certain features and content, such as providing your “For You” feed and content creation tools.
+
+To maintain and enhance the safety, security, and stability of the Services by identifying and addressing technical or security issues or problems (such as technical bugs and spam accounts), and detecting abuse, fraud, and illegal activity.
+
+To combine Information We Collect for any of the foregoing purposes.
+
+Payment processors and transaction fulfillment providers, who may receive certain Information You Provide , Automatically Collected Information , and Information From Other Sources, including, in particular, the following third-party payment providers/processors: PayPal ( https://www.paypal.com/us/webapps/mpp/ua/privacy-full ) and Stripe ( https://stripe.com/en-ie/privacy ).
+
+We may share Information We Collect with affiliates controlled by, or under common control with, TikTok USDS Joint Venture as necessary for the purposes set forth within this Privacy Policy.
+
+We may share your information for other purposes pursuant to your consent or at your direction. For example, we may facilitate the sending of marketing communications to you by sellers, such as by sharing your email address.
+
+You may be able to control some of the Information We Collect by refusing or disabling cookies through your device browser settings. Because each browser is different, please consult the instructions provided by your browser. Please note that you may need to take additional steps to refuse or disable certain types of cookies. In addition, your choice to disable cookies is specific to the particular browser that you are using when you disable cookies, so you may need to separately disable cookies for each type of browser. Some browsers transmit “do-not-track” signals to websites. Because of differences in how browsers incorporate and activate this feature, we currently do not take action in response to these signals. Please be aware that if you choose to refuse, disable, or delete cookies, some of the functionality of the Services may no longer be available to you. Without this information, we are not able to provide you with all of the requested services.
+
+Subject to applicable laws, including Executive Order 14352 and any compliance obligations thereunder, we may transmit your information outside of the United States, for purposes of sharing with recipients as described in this Privacy Policy.
+
+If you are a California resident, once a calendar year, you may be entitled to obtain information about personal information that we shared, if any, with other businesses for their own direct marketing uses. To submit a request, contact us at: https://www.tiktok.com/legal/report/privacy .
+
+Mailing Address: TikTok USDS Joint Venture LLC, Attn: Privacy Policy Inquiry, 5800 Bristol Parkway, Suite 300, Culver City, CA 90230

@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-08-04T20:51:28.856593+00:00",
+  "seed": 42,
+  "framework_version": "1.0",
+  "selection_basis": "policy-grouped five-fold CV macro-F1",
+  "models": [
+    "Logistic Regression",
+    "Linear SVM"
+  ],
+  "n_train_segments": 3053,
+  "n_test_segments": 738,
+  "n_train_policies": 92,
+  "n_test_policies": 23,
+  "policy_overlap": 0,
+  "bootstrap_resamples": 1000,
+  "test_set_access": "single final evaluation"
+}

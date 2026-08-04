@@ -5,6 +5,22 @@
 data/
 data.zip
 
+# Keep the small, fixed modern-policy evaluation snapshot reproducible while
+# continuing to ignore the large OPP-115 corpus and derived primary dataset.
+!data/
+data/*
+!data/generalization/
+data/generalization/*
+!data/generalization/manifest.csv
+!data/generalization/manifest_resolved.csv
+!data/generalization/build_report.txt
+!data/generalization/raw/
+data/generalization/raw/*
+!data/generalization/raw/*.txt
+!data/generalization/segments_unlabeled.csv
+!data/generalization/annotations_raw.csv
+!data/generalization/segments_adjudicated.csv
+
 # ---- Python ----
 __pycache__/
 *.py[cod]

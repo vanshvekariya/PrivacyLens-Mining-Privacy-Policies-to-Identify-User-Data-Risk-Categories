@@ -1,0 +1,124 @@
+segment_id,labels,n_annotators,source,needs_adjudication
+dropbox_2025-seg-0000,Other/Unclear,1,single,False
+dropbox_2025-seg-0001,Data Collection,1,single,False
+dropbox_2025-seg-0002,Data Collection|Data Retention,1,single,False
+dropbox_2025-seg-0003,Data Collection|User Control & Deletion,1,single,False
+dropbox_2025-seg-0004,User Control & Deletion,1,single,False
+dropbox_2025-seg-0005,Data Collection|User Control & Deletion,1,single,False
+dropbox_2025-seg-0006,Third-Party Sharing,1,single,False
+dropbox_2025-seg-0007,Third-Party Sharing|User Control & Deletion,1,single,False
+dropbox_2025-seg-0008,Data Security,1,single,False
+dropbox_2025-seg-0009,Data Security,1,single,False
+dropbox_2025-seg-0010,Third-Party Sharing,1,single,False
+dropbox_2025-seg-0011,Data Security|Other/Unclear|Third-Party Sharing,1,single,False
+dropbox_2025-seg-0012,User Control & Deletion,1,single,False
+dropbox_2025-seg-0013,User Control & Deletion,1,single,False
+dropbox_2025-seg-0014,Other/Unclear,1,single,False
+dropbox_2025-seg-0015,Other/Unclear,1,single,False
+firefox_2026-seg-0000,Other/Unclear,1,single,False
+firefox_2026-seg-0001,Data Collection|Data Retention,1,single,False
+firefox_2026-seg-0002,User Control & Deletion,1,single,False
+firefox_2026-seg-0003,Data Collection,1,single,False
+firefox_2026-seg-0004,Third-Party Sharing|User Control & Deletion,1,single,False
+firefox_2026-seg-0005,Other/Unclear|User Control & Deletion,1,single,False
+firefox_2026-seg-0006,Data Collection|Data Security|Third-Party Sharing,1,single,False
+firefox_2026-seg-0007,Data Collection|Third-Party Sharing|User Control & Deletion,1,single,False
+firefox_2026-seg-0008,Other/Unclear,1,single,False
+firefox_2026-seg-0009,Data Security|Other/Unclear|Third-Party Sharing,1,single,False
+firefox_2026-seg-0010,User Control & Deletion,1,single,False
+firefox_2026-seg-0011,Data Collection|User Control & Deletion,1,single,False
+firefox_2026-seg-0012,Policy Change,1,single,False
+firefox_2026-seg-0013,Third-Party Sharing|User Control & Deletion,1,single,False
+firefox_2026-seg-0014,Data Collection,1,single,False
+firefox_2026-seg-0015,Other/Unclear,1,single,False
+github_2026-seg-0000,Other/Unclear,1,single,False
+github_2026-seg-0001,Data Collection,1,single,False
+github_2026-seg-0002,Data Collection|Third-Party Sharing|User Control & Deletion,1,single,False
+github_2026-seg-0003,Data Collection|Data Security,1,single,False
+github_2026-seg-0004,Data Security|Third-Party Sharing,1,single,False
+github_2026-seg-0005,Other/Unclear,1,single,False
+github_2026-seg-0006,User Control & Deletion,1,single,False
+github_2026-seg-0007,Other/Unclear,1,single,False
+github_2026-seg-0008,Other/Unclear,1,single,False
+github_2026-seg-0009,Data Collection|Third-Party Sharing,1,single,False
+github_2026-seg-0010,User Control & Deletion,1,single,False
+github_2026-seg-0011,Third-Party Sharing,1,single,False
+github_2026-seg-0012,Other/Unclear,1,single,False
+openai_2026-seg-0000,Other/Unclear,1,single,False
+openai_2026-seg-0001,Data Collection,1,single,False
+openai_2026-seg-0002,Data Collection|Third-Party Sharing,1,single,False
+openai_2026-seg-0003,Data Collection,1,single,False
+openai_2026-seg-0004,Data Collection,1,single,False
+openai_2026-seg-0005,Data Collection,1,single,False
+openai_2026-seg-0006,Third-Party Sharing,1,single,False
+openai_2026-seg-0007,Third-Party Sharing|User Control & Deletion,1,single,False
+openai_2026-seg-0008,Third-Party Sharing|User Control & Deletion,1,single,False
+openai_2026-seg-0009,Data Retention|Data Security,1,single,False
+openai_2026-seg-0010,Data Retention|Data Security|User Control & Deletion,1,single,False
+openai_2026-seg-0011,Data Retention,1,single,False
+openai_2026-seg-0012,User Control & Deletion,1,single,False
+openai_2026-seg-0013,Data Collection|User Control & Deletion,1,single,False
+openai_2026-seg-0014,User Control & Deletion,1,single,False
+openai_2026-seg-0015,User Control & Deletion,1,single,False
+openai_2026-seg-0016,Other/Unclear,1,single,False
+openai_2026-seg-0017,Other/Unclear,1,single,False
+reddit_2026-seg-0000,Policy Change,1,single,False
+reddit_2026-seg-0001,Other/Unclear,1,single,False
+reddit_2026-seg-0002,Data Collection,1,single,False
+reddit_2026-seg-0003,Data Collection,1,single,False
+reddit_2026-seg-0004,Data Collection,1,single,False
+reddit_2026-seg-0005,Third-Party Sharing,1,single,False
+reddit_2026-seg-0006,User Control & Deletion,1,single,False
+reddit_2026-seg-0007,Other/Unclear,1,single,False
+reddit_2026-seg-0008,Data Collection,1,single,False
+reddit_2026-seg-0009,Data Security,1,single,False
+reddit_2026-seg-0010,Data Collection,1,single,False
+reddit_2026-seg-0011,Data Collection,1,single,False
+reddit_2026-seg-0012,User Control & Deletion,1,single,False
+reddit_2026-seg-0013,Data Retention|Data Security|Third-Party Sharing,1,single,False
+reddit_2026-seg-0014,Other/Unclear,1,single,False
+shopify_2026-seg-0000,Other/Unclear,1,single,False
+shopify_2026-seg-0001,Data Collection,1,single,False
+shopify_2026-seg-0002,Data Collection|Third-Party Sharing,1,single,False
+shopify_2026-seg-0003,Data Collection,1,single,False
+shopify_2026-seg-0004,User Control & Deletion,1,single,False
+shopify_2026-seg-0005,Data Collection|Policy Change,1,single,False
+shopify_2026-seg-0006,Data Collection|Third-Party Sharing,1,single,False
+shopify_2026-seg-0007,Third-Party Sharing,1,single,False
+shopify_2026-seg-0008,Third-Party Sharing|User Control & Deletion,1,single,False
+shopify_2026-seg-0009,User Control & Deletion,1,single,False
+shopify_2026-seg-0010,Third-Party Sharing|User Control & Deletion,1,single,False
+shopify_2026-seg-0011,User Control & Deletion,1,single,False
+shopify_2026-seg-0012,Data Retention,1,single,False
+shopify_2026-seg-0013,User Control & Deletion,1,single,False
+shopify_2026-seg-0014,Data Collection,1,single,False
+shopify_2026-seg-0015,User Control & Deletion,1,single,False
+spotify_2026-seg-0000,User Control & Deletion,1,single,False
+spotify_2026-seg-0001,User Control & Deletion,1,single,False
+spotify_2026-seg-0002,User Control & Deletion,1,single,False
+spotify_2026-seg-0003,Data Collection,1,single,False
+spotify_2026-seg-0004,Data Collection|Third-Party Sharing,1,single,False
+spotify_2026-seg-0005,Data Collection,1,single,False
+spotify_2026-seg-0006,Third-Party Sharing,1,single,False
+spotify_2026-seg-0007,Other/Unclear,1,single,False
+spotify_2026-seg-0008,Data Collection,1,single,False
+spotify_2026-seg-0009,Third-Party Sharing,1,single,False
+spotify_2026-seg-0010,Data Security|Third-Party Sharing,1,single,False
+spotify_2026-seg-0011,Third-Party Sharing,1,single,False
+spotify_2026-seg-0012,Data Retention,1,single,False
+tiktok_2026-seg-0000,Other/Unclear,1,single,False
+tiktok_2026-seg-0001,Data Collection,1,single,False
+tiktok_2026-seg-0002,Data Collection,1,single,False
+tiktok_2026-seg-0003,Data Collection,1,single,False
+tiktok_2026-seg-0004,Data Collection,1,single,False
+tiktok_2026-seg-0005,Data Collection|Third-Party Sharing,1,single,False
+tiktok_2026-seg-0006,Data Collection,1,single,False
+tiktok_2026-seg-0007,Data Security,1,single,False
+tiktok_2026-seg-0008,Data Collection,1,single,False
+tiktok_2026-seg-0009,Third-Party Sharing,1,single,False
+tiktok_2026-seg-0010,Third-Party Sharing,1,single,False
+tiktok_2026-seg-0011,Third-Party Sharing|User Control & Deletion,1,single,False
+tiktok_2026-seg-0012,Other/Unclear|User Control & Deletion,1,single,False
+tiktok_2026-seg-0013,Other/Unclear|Third-Party Sharing,1,single,False
+tiktok_2026-seg-0014,Third-Party Sharing|User Control & Deletion,1,single,False
+tiktok_2026-seg-0015,Other/Unclear,1,single,False

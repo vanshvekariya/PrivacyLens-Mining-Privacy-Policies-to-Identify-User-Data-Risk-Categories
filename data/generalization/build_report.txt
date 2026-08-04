@@ -1,0 +1,7 @@
+policies: 8
+segments: 123
+segments by shift_type: {'service': 108, 'temporal': 15}
+mean segments/policy: 15.4
+word_count: mean 45, median 36, max 194
+
+Next: run src/label_generalization_set.py, then src/merge_generalization_labels.py.

@@ -1,0 +1,31 @@
+For individuals in the European Economic Area, United Kingdom, and Switzerland, you can read this version ⁠ of our Privacy Policy.
+
+Personal Data You Provide: We collect Personal Data if you create an account to use our Services or communicate with us as follows:
+
+Other Information You Provide : We collect other information that you provide to us, such as when you participate in our events or surveys, or when you provide us or a vendor operating on our behalf with information to establish your identity or age (collectively, “Other Information You Provide”).
+
+Cookies and Similar Technologies : We use cookies and similar technologies to operate and administer our Services, and improve your experience. We store some of the information described in this Policy with cookies, for example to help maintain your preferences across sessions if you’re not logged in, or to assist with authentication and customer support. For details about our use of cookies, please read our Cookie Notice ⁠ .
+
+To improve and develop our Services and conduct research, for example to develop new features;
+
+Identify your contacts who use our Services when you choose to connect your contacts and update you if they join our Services later;
+
+Vendors, Service Providers, and Marketing Partners : To assist us in meeting business operations needs and to perform certain services and functions, we disclose Personal Data to vendors, service providers, and marketing partners, including providers of hosting services, customer service vendors, cloud services, content delivery services, support and safety services, email communication software, web analytics services, payment and transaction processors, search and shopping providers, and information technology providers. We also work with service providers who help us with age and identity verification, and you can learn more here ⁠ (opens in a new window) . When we work with Service Providers, these parties will access, process, or store Personal Data based on our instructions and only in the course of performing their duties to us. We also share limited information with select marketing partners who are not service providers in order to promote our products and services on third-party properties and help us assess the effectiveness of those efforts. Some of these partners may receive information through cookies and similar technologies. Learn more about these practices and the choices available to you here ⁠ (opens in a new window) .
+
+Other Users and Third Parties You Interact or Share Information With : Certain Services allow you to interact or share information with other users or third parties. For example, you can share content like ChatGPT conversations ⁠ (opens in a new window) or share information with third-party search ⁠ (opens in a new window) and shopping ⁠ (opens in a new window) partners. Information you share with third-party partners is governed by their own terms and privacy policies, and you should make sure you understand those terms and policies before sharing information with them.
+
+Information we retain for longer for legitimate security, safety, or legal reasons: In some cases, we need to retain Personal Data for longer even after you delete it, for example because we are legally required to, to address fraud and abuse, for security reasons, or for financial record-keeping purposes. For instance: If specific Content, or your account, is banned because of violations of our usage policies ⁠ , we may retain that data to protect our services from fraud, abuse, or other violations of our policies; If we are legally required to retain your data (for instance, we receive a lawful subpoena) then we may retain it for the duration of the relevant legal or regulatory obligation; When we are a party to a financial transaction (for instance, when we process your payment for a ChatGPT Plus or Pro account, or facilitate a purchase on ChatGPT), we may retain payment and transaction related information to meet our accounting, dispute resolution, and regulatory compliance purposes; When you ask us to delete your Personal Data, we retain the audit record of the erasure request to be able to verify that we have complied with the request.
+
+Our purpose for processing the Personal Data (such as whether we need to retain it to provide our Services);
+
+You can decide whether we will remember details between chats to make Content more personalized and relevant.
+
+Free and Go users can use the advertising controls in your account settings to control what data we use to personalize the ads we show you on our Services.
+
+Restrict how we process your Personal Data.
+
+For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see this help center article ⁠ (opens in a new window) .
+
+If you live in the European Economic Area (EEA) or Switzerland, OpenAI Ireland Limited, with its registered office at 1st Floor, The Liffey Trust Centre, 117-126 Sheriff Street Upper, Dublin 1, D01 YC43, Ireland, is the controller and is responsible for the processing of your Personal Data as described in this policy.
+
+Voice Mode FAQ ⁠ (opens in a new window)

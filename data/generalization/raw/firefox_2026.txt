@@ -1,0 +1,31 @@
+At Mozilla, we believe that privacy is fundamental to a healthy internet
+
+If you enable the Shake to Summarize feature on a compatible device running a supported operating system that enables on-device intelligence, summaries you request will be created locally on your device. Otherwise, when you request a summary, your page content will be sent to a Mozilla server for processing and returned to your device; Mozilla does not store this content or resulting summaries. Learn more about Shake to Summarize on iOS and Android .
+
+Users in the United States and certain other regions will also receive Suggestions from Firefox. You can turn these off entirely, or just turn off sponsored Suggestions from Firefox, in your browser settings.
+
+In some regions, we use this data to build models and group users based on common attributes. These groupings help us understand how people are interacting with our content and to personalize future content, including sponsored content. We use on-device processing and OHTTP to avoid revealing to Mozilla the attributes of any specific user. Learn more .
+
+You have the option to use a third-party AI chatbot of your choice to help you with things like summarizing what you’re reading, writing, and brainstorming ideas, subject to that provider’s terms of use and privacy notice .
+
+More details, including how to adjust your data settings: Learn how to remove or enable add-ons . You can also review the Privacy Notice for the add-ons website .
+
+We also process technical data and settings data to protect against malicious add-ons. In addition to these standard processes, we use Google’s Safe Browsing Service to protect you from malicious downloads and phishing attacks, and validate webpage and technical data with Certificate Authorities . As part of our work to improve privacy and security for all internet users, we collect technical data via OHTTP, to better understand, prevent and defend against fingerprinting.
+
+More details, including how to adjust your data settings: Learn more about what Campaign Measurement data is collected and shared, and how to opt out. Firefox does not share information like your browsing history, search queries, or saved passwords with marketing technology partners. Mozilla only collects the data necessary to measure and improve our marketing campaigns.
+
+We may also be required to process your personal data to comply with applicable laws and protection purposes, such as:
+
+Mozilla (and our servers) are based in the United States. Because we are a global company, in order to provide the services outlined in this Privacy Notice, the information we collect may be accessed from locations where our people are located and data may also be transferred to other jurisdictions as a result of sharing data with our partners. Where applicable, we ensure we have appropriate mechanisms in place (such as standard contractual clauses approved by the European Commission and other relevant authorities) to protect your personal data. You can contact dpo@mozilla.com for information on the safeguards implemented for international transfers, or for copies of the relevant standard contractual clauses.
+
+Have personal data we hold about you deleted (in certain circumstances)
+
+We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws, and we may need to ask you for additional information to confirm your identity before we can proceed with your request.
+
+We may need to change this policy and our notices, in which case the updates will be posted online and we will update the effective date of this notice. If the changes are substantive, we will also announce the update more prominently through Mozilla’s usual channels for such announcements, such as blog posts and forums.
+
+Consent , when you choose to enable a specific Mozilla provided add-on. Data processed by each add-on is governed by their own Privacy Policy.
+
+Legitimate interest in understanding how Firefox is used, enabling improvements and performing business functions such as usage reporting and forecasting.
+
+Privacy notices for select search providers

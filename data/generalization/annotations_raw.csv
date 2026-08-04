@@ -1,0 +1,124 @@
+segment_id,annotator,labels,notes,guide_version
+reddit_2026-seg-0000,primary_review,Policy Change,,1.1
+reddit_2026-seg-0001,primary_review,Other/Unclear,,1.1
+reddit_2026-seg-0002,primary_review,Data Collection,,1.1
+reddit_2026-seg-0003,primary_review,Data Collection,,1.1
+reddit_2026-seg-0004,primary_review,Data Collection,,1.1
+reddit_2026-seg-0005,primary_review,Third-Party Sharing,,1.1
+reddit_2026-seg-0006,primary_review,User Control & Deletion,,1.1
+reddit_2026-seg-0007,primary_review,Other/Unclear,,1.1
+reddit_2026-seg-0008,primary_review,Data Collection,,1.1
+reddit_2026-seg-0009,primary_review,Data Security,,1.1
+reddit_2026-seg-0010,primary_review,Data Collection,,1.1
+reddit_2026-seg-0011,primary_review,Data Collection,,1.1
+reddit_2026-seg-0012,primary_review,User Control & Deletion,,1.1
+reddit_2026-seg-0013,primary_review,Data Retention|Data Security|Third-Party Sharing,,1.1
+reddit_2026-seg-0014,primary_review,Other/Unclear,,1.1
+openai_2026-seg-0000,primary_review,Other/Unclear,,1.1
+openai_2026-seg-0001,primary_review,Data Collection,,1.1
+openai_2026-seg-0002,primary_review,Data Collection|Third-Party Sharing,,1.1
+openai_2026-seg-0003,primary_review,Data Collection,,1.1
+openai_2026-seg-0004,primary_review,Data Collection,,1.1
+openai_2026-seg-0005,primary_review,Data Collection,,1.1
+openai_2026-seg-0006,primary_review,Third-Party Sharing,,1.1
+openai_2026-seg-0007,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+openai_2026-seg-0008,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+openai_2026-seg-0009,primary_review,Data Retention|Data Security,,1.1
+openai_2026-seg-0010,primary_review,Data Retention|Data Security|User Control & Deletion,,1.1
+openai_2026-seg-0011,primary_review,Data Retention,,1.1
+openai_2026-seg-0012,primary_review,User Control & Deletion,,1.1
+openai_2026-seg-0013,primary_review,Data Collection|User Control & Deletion,,1.1
+openai_2026-seg-0014,primary_review,User Control & Deletion,,1.1
+openai_2026-seg-0015,primary_review,User Control & Deletion,,1.1
+openai_2026-seg-0016,primary_review,Other/Unclear,,1.1
+openai_2026-seg-0017,primary_review,Other/Unclear,,1.1
+tiktok_2026-seg-0000,primary_review,Other/Unclear,,1.1
+tiktok_2026-seg-0001,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0002,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0003,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0004,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0005,primary_review,Data Collection|Third-Party Sharing,,1.1
+tiktok_2026-seg-0006,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0007,primary_review,Data Security,,1.1
+tiktok_2026-seg-0008,primary_review,Data Collection,,1.1
+tiktok_2026-seg-0009,primary_review,Third-Party Sharing,,1.1
+tiktok_2026-seg-0010,primary_review,Third-Party Sharing,,1.1
+tiktok_2026-seg-0011,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+tiktok_2026-seg-0012,primary_review,Other/Unclear|User Control & Deletion,,1.1
+tiktok_2026-seg-0013,primary_review,Other/Unclear|Third-Party Sharing,,1.1
+tiktok_2026-seg-0014,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+tiktok_2026-seg-0015,primary_review,Other/Unclear,,1.1
+github_2026-seg-0000,primary_review,Other/Unclear,,1.1
+github_2026-seg-0001,primary_review,Data Collection,,1.1
+github_2026-seg-0002,primary_review,Data Collection|Third-Party Sharing|User Control & Deletion,,1.1
+github_2026-seg-0003,primary_review,Data Collection|Data Security,,1.1
+github_2026-seg-0004,primary_review,Data Security|Third-Party Sharing,,1.1
+github_2026-seg-0005,primary_review,Other/Unclear,,1.1
+github_2026-seg-0006,primary_review,User Control & Deletion,,1.1
+github_2026-seg-0007,primary_review,Other/Unclear,,1.1
+github_2026-seg-0008,primary_review,Other/Unclear,,1.1
+github_2026-seg-0009,primary_review,Data Collection|Third-Party Sharing,,1.1
+github_2026-seg-0010,primary_review,User Control & Deletion,,1.1
+github_2026-seg-0011,primary_review,Third-Party Sharing,,1.1
+github_2026-seg-0012,primary_review,Other/Unclear,,1.1
+firefox_2026-seg-0000,primary_review,Other/Unclear,,1.1
+firefox_2026-seg-0001,primary_review,Data Collection|Data Retention,,1.1
+firefox_2026-seg-0002,primary_review,User Control & Deletion,,1.1
+firefox_2026-seg-0003,primary_review,Data Collection,,1.1
+firefox_2026-seg-0004,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+firefox_2026-seg-0005,primary_review,Other/Unclear|User Control & Deletion,,1.1
+firefox_2026-seg-0006,primary_review,Data Collection|Data Security|Third-Party Sharing,,1.1
+firefox_2026-seg-0007,primary_review,Data Collection|Third-Party Sharing|User Control & Deletion,,1.1
+firefox_2026-seg-0008,primary_review,Other/Unclear,,1.1
+firefox_2026-seg-0009,primary_review,Data Security|Other/Unclear|Third-Party Sharing,,1.1
+firefox_2026-seg-0010,primary_review,User Control & Deletion,,1.1
+firefox_2026-seg-0011,primary_review,Data Collection|User Control & Deletion,,1.1
+firefox_2026-seg-0012,primary_review,Policy Change,,1.1
+firefox_2026-seg-0013,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+firefox_2026-seg-0014,primary_review,Data Collection,,1.1
+firefox_2026-seg-0015,primary_review,Other/Unclear,,1.1
+spotify_2026-seg-0000,primary_review,User Control & Deletion,,1.1
+spotify_2026-seg-0001,primary_review,User Control & Deletion,,1.1
+spotify_2026-seg-0002,primary_review,User Control & Deletion,,1.1
+spotify_2026-seg-0003,primary_review,Data Collection,,1.1
+spotify_2026-seg-0004,primary_review,Data Collection|Third-Party Sharing,,1.1
+spotify_2026-seg-0005,primary_review,Data Collection,,1.1
+spotify_2026-seg-0006,primary_review,Third-Party Sharing,,1.1
+spotify_2026-seg-0007,primary_review,Other/Unclear,,1.1
+spotify_2026-seg-0008,primary_review,Data Collection,,1.1
+spotify_2026-seg-0009,primary_review,Third-Party Sharing,,1.1
+spotify_2026-seg-0010,primary_review,Data Security|Third-Party Sharing,,1.1
+spotify_2026-seg-0011,primary_review,Third-Party Sharing,,1.1
+spotify_2026-seg-0012,primary_review,Data Retention,,1.1
+dropbox_2025-seg-0000,primary_review,Other/Unclear,,1.1
+dropbox_2025-seg-0001,primary_review,Data Collection,,1.1
+dropbox_2025-seg-0002,primary_review,Data Collection|Data Retention,,1.1
+dropbox_2025-seg-0003,primary_review,Data Collection|User Control & Deletion,,1.1
+dropbox_2025-seg-0004,primary_review,User Control & Deletion,,1.1
+dropbox_2025-seg-0005,primary_review,Data Collection|User Control & Deletion,,1.1
+dropbox_2025-seg-0006,primary_review,Third-Party Sharing,,1.1
+dropbox_2025-seg-0007,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+dropbox_2025-seg-0008,primary_review,Data Security,,1.1
+dropbox_2025-seg-0009,primary_review,Data Security,,1.1
+dropbox_2025-seg-0010,primary_review,Third-Party Sharing,,1.1
+dropbox_2025-seg-0011,primary_review,Data Security|Other/Unclear|Third-Party Sharing,,1.1
+dropbox_2025-seg-0012,primary_review,User Control & Deletion,,1.1
+dropbox_2025-seg-0013,primary_review,User Control & Deletion,,1.1
+dropbox_2025-seg-0014,primary_review,Other/Unclear,,1.1
+dropbox_2025-seg-0015,primary_review,Other/Unclear,,1.1
+shopify_2026-seg-0000,primary_review,Other/Unclear,,1.1
+shopify_2026-seg-0001,primary_review,Data Collection,,1.1
+shopify_2026-seg-0002,primary_review,Data Collection|Third-Party Sharing,,1.1
+shopify_2026-seg-0003,primary_review,Data Collection,,1.1
+shopify_2026-seg-0004,primary_review,User Control & Deletion,,1.1
+shopify_2026-seg-0005,primary_review,Data Collection|Policy Change,,1.1
+shopify_2026-seg-0006,primary_review,Data Collection|Third-Party Sharing,,1.1
+shopify_2026-seg-0007,primary_review,Third-Party Sharing,,1.1
+shopify_2026-seg-0008,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+shopify_2026-seg-0009,primary_review,User Control & Deletion,,1.1
+shopify_2026-seg-0010,primary_review,Third-Party Sharing|User Control & Deletion,,1.1
+shopify_2026-seg-0011,primary_review,User Control & Deletion,,1.1
+shopify_2026-seg-0012,primary_review,Data Retention,,1.1
+shopify_2026-seg-0013,primary_review,User Control & Deletion,,1.1
+shopify_2026-seg-0014,primary_review,Data Collection,,1.1
+shopify_2026-seg-0015,primary_review,User Control & Deletion,,1.1

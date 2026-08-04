@@ -1,15 +1,15 @@
 model,category,modern_support,indist_f1,modern_precision,modern_recall,modern_f1,degradation
-Logistic Regression,Data Collection,48,0.8051,0.7705,0.9792,0.8624,-0.0573
-Logistic Regression,Data Retention,7,0.5221,0.3889,1.0,0.56,-0.0379
-Logistic Regression,Data Security,10,0.691,0.6,0.9,0.72,-0.029
-Logistic Regression,Other/Unclear,26,0.7837,0.42,0.8077,0.5526,0.2311
-Logistic Regression,Policy Change,4,0.7346,0.8,1.0,0.8889,-0.1543
-Logistic Regression,Third-Party Sharing,34,0.77,0.6829,0.8235,0.7467,0.0233
-Logistic Regression,User Control & Deletion,31,0.7106,0.8235,0.9032,0.8615,-0.1509
-Linear SVM,Data Collection,48,0.813,0.7377,0.9375,0.8257,-0.0127
-Linear SVM,Data Retention,7,0.4776,0.5833,1.0,0.7368,-0.2592
-Linear SVM,Data Security,10,0.6795,0.5833,0.7,0.6364,0.0431
-Linear SVM,Other/Unclear,26,0.7835,0.45,0.6923,0.5455,0.238
-Linear SVM,Policy Change,4,0.7766,0.5714,1.0,0.7273,0.0493
-Linear SVM,Third-Party Sharing,34,0.7847,0.7568,0.8235,0.7887,-0.004
-Linear SVM,User Control & Deletion,31,0.7016,0.9286,0.8387,0.8814,-0.1798
+Logistic Regression,Data Collection,43,0.8051,0.7609,0.814,0.7865,0.0186
+Logistic Regression,Data Retention,8,0.5221,0.625,0.625,0.625,-0.1029
+Logistic Regression,Data Security,13,0.691,0.7143,0.3846,0.5,0.191
+Logistic Regression,Other/Unclear,26,0.7837,0.3239,0.8846,0.4742,0.3095
+Logistic Regression,Policy Change,3,0.7346,1.0,0.6667,0.8,-0.0654
+Logistic Regression,Third-Party Sharing,35,0.77,0.7692,0.5714,0.6557,0.1143
+Logistic Regression,User Control & Deletion,38,0.7106,0.8095,0.4474,0.5763,0.1343
+Linear SVM,Data Collection,43,0.813,0.7805,0.7442,0.7619,0.0511
+Linear SVM,Data Retention,8,0.4776,1.0,0.375,0.5455,-0.0679
+Linear SVM,Data Security,13,0.6795,0.6667,0.3077,0.4211,0.2584
+Linear SVM,Other/Unclear,26,0.7835,0.35,0.8077,0.4884,0.2951
+Linear SVM,Policy Change,3,0.7766,1.0,0.6667,0.8,-0.0234
+Linear SVM,Third-Party Sharing,35,0.7847,0.8182,0.5143,0.6316,0.1531
+Linear SVM,User Control & Deletion,38,0.7016,0.8889,0.4211,0.5714,0.1302
